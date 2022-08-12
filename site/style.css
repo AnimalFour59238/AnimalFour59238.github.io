@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a { text-decoration: none; 
+color: #eceaea; /* Цвет текста */
+padding: 2px; /* Поля вокруг текста */
+}
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url("fonts/minecraft.ttf"); /* Путь к файлу со шрифтом */
+   }
+   h1 {
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+   }
+body {
+    background-color: #2f3136;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    line-height: 5.6;
+    box-shadow: 1ch;
+    color: rgb(245, 250, 255);
+    
+
+}
+.intro {
+    color: black;
+    width:"400";
+    height:"400";
+    background: url("foto/2aab00c87bb74c5a.png") center no-repeat;
+}
